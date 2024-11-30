@@ -15,7 +15,6 @@
 }
 /* streamline dot */
 
-
 .track_tbl td.track_dot {
   width: 50px;
   position: relative;
@@ -46,10 +45,9 @@
   height: 10%;
 }
 
-/* ---payment page-- */
+/*-- payment page --*/
 .paymentpageleft {
-  display: flex
-;
+  display: flex;
   width: 735px;
   justify-content: space-between;
   align-items: center;
@@ -59,7 +57,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 22px;
-  background: #D9D9D9;
+  background: #d9d9d9;
   margin-top: 16px;
   margin-bottom: 16px;
   padding: 8px;
@@ -74,8 +72,6 @@
   border: 0.5px solid #888;
   padding: 8px;
   height: 38px;
-
- 
 }
 
 input[type="int"] {
@@ -94,6 +90,7 @@ input[type="int"] {
   background: white;
   margin-top: 16px;
 }
+
 p.paymenetapply {
   color: #000;
   font-family: Lato;
@@ -122,9 +119,37 @@ p.viewcoupon {
   margin-bottom: 0px;
 }
 
+.w-10 {
+  width: 10px;
+}
+.h-10 {
+  height: 10px;
+}
 
+.bg-black {
+  background: #000;
+}
+.center-step-text {
+  display: flex;
+  justify-content: center;
+  margin-left: -90%;
+  margin-top: 8px;
+  color: #000;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 166.667% */
+  text-transform: uppercase;
+}
+
+.indicator-container {
+  margin-top: 40px;
+  margin-bottom: 32px;
+}
+/*-- end payment page --*/
 p.productpagelines1 {
-  color: #3D3D3D;
+  color: #3d3d3d;
   font-family: Lato;
   font-size: 10px;
   font-style: normal;
@@ -152,8 +177,6 @@ p.paymentpageprice {
   margin-bottom: 8px;
 }
 
-
-
 .divimage {
   display: flex;
   width: 300px;
@@ -163,7 +186,7 @@ p.paymentpageprice {
 }
 
 button.btn.standarddelivery {
-  color: #FFF;
+  color: #fff;
   font-family: Lato;
   font-size: 12px;
   font-style: normal;
@@ -182,20 +205,16 @@ button.btn.expressdelivery {
   border: 0.5px solid #888;
 }
 
-
-
-
 /* payment page css */
 
 p.prepaidorder {
-  display: flex
-;
+  display: flex;
   width: 1280px;
   padding: 8px 10px;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: Lato;
   font-size: 14px;
@@ -327,7 +346,7 @@ p.editaddreess {
 
 p.shippingforu {
   margin-top: -19px;
-  color: #3D3D3D;
+  color: #3d3d3d;
   font-family: Lato;
   font-size: 8px;
   font-style: normal;
@@ -361,7 +380,6 @@ p.customeraddress {
   font-weight: 400;
   line-height: 20px;
   margin-bottom: 8px;
-
 }
 
 p.textwildflower {
@@ -371,13 +389,13 @@ p.textwildflower {
   font-style: normal;
   font-weight: 400;
   line-height: 22px;
-  margin-top:16px ;
+  margin-top: 16px;
   margin-bottom: 16px;
 }
-.btn-group, .btn-group-vertical {
+.btn-group,
+.btn-group-vertical {
   position: relative;
-  display: inline-flex
-;
+  display: inline-flex;
   vertical-align: middle;
   gap: 24px;
   margin-bottom: 16px;
@@ -385,7 +403,7 @@ p.textwildflower {
 }
 
 p.productprices {
-  color: #3D3D3D;
+  color: #3d3d3d;
   font-family: Lato;
   font-size: 12px;
   font-style: normal;
@@ -393,21 +411,21 @@ p.productprices {
   line-height: 20px;
 }
 
-.btn-group1, .btn-group1-vertical {
+.btn-group1,
+.btn-group1-vertical {
   position: relative;
-  display: inline-flex
-;    margin-left: 24px;
+  display: inline-flex;
+  margin-left: 24px;
   vertical-align: middle;
   gap: 24px;
   margin-bottom: 16px;
   border: 0.5px solid #000;
-  background: #D9D9D9;
-    background: #D9D9D9;
-
+  background: #d9d9d9;
+  background: #d9d9d9;
 }
 
 p.featuringtext {
-  color: #3D3D3D;
+  color: #3d3d3d;
   font-family: Lato;
   font-size: 12px;
   font-style: normal;
@@ -608,8 +626,6 @@ li {
   background-repeat: no-repeat;
 }
 
-
-
 .url {
   background: #d9d9d9;
   padding: 16px;
@@ -698,7 +714,6 @@ li {
   margin-bottom: 24px;
 } */
 
-
 .row.cartitemsection {
   align-items: center;
   justify-content: center;
@@ -707,7 +722,7 @@ li {
 }
 button#dropdownMenuButton {
   font-size: 12px;
-  color: #3D3D3D;
+  color: #3d3d3d;
   font-family: Lato;
   font-style: normal;
   font-weight: 400;
@@ -842,7 +857,6 @@ p.extraoff {
   text-transform: uppercase;
 }
 
-
 .rating1 {
   display: inline-flex;
   align-items: center;
@@ -917,7 +931,6 @@ p.extraoff {
   font-weight: 500;
 }
 
-
 .btn-box {
   display: flex;
   padding: 8px 10px;
@@ -957,7 +970,6 @@ p.addressorder {
   align-self: stretch;
   background: #000;
   margin-bottom: 62px;
-  
 }
 
 p.discount {
@@ -1094,8 +1106,6 @@ p.line4 {
   text-decoration: underline;
 }
 
-
-
 button.loginnow {
   border: 0.5px solid black;
   display: flex;
@@ -1113,12 +1123,22 @@ button.loginnow {
 }
 
 p.cartpagelines {
-  color: #3D3D3D;
+  color: #3d3d3d;
   font-family: Lato;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+}
+p.cartpagelines2 {
+  color: #3d3d3d;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 p.item1price {
   color: #000;
@@ -2193,6 +2213,10 @@ input[type="email"]::placeholder {
   background-color: #000;
   padding: 25px 0;
   margin-top: -40px;
+}
+
+.faqcart {
+  margin-top: 0px;
 }
 
 .faq img {
